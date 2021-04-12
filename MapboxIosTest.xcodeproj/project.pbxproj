@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,21 @@
 		D0AD1EDC2624A64000C31C54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AD1EDB2624A64000C31C54 /* Preview Assets.xcassets */; };
 		D0AD1EE72624A64000C31C54 /* MapboxIosTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD1EE62624A64000C31C54 /* MapboxIosTestTests.swift */; };
 		D0AD1EF22624A64100C31C54 /* MapboxIosTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD1EF12624A64100C31C54 /* MapboxIosTestUITests.swift */; };
+		D0AD1F032624A6DB00C31C54 /* MapboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD1F022624A6DB00C31C54 /* MapboxViewController.swift */; };
+		D0AD1F152624ABB000C31C54 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AD1F092624ABB000C31C54 /* Mapbox.framework */; };
+		D0AD1F172624ABB000C31C54 /* MapboxDirections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AD1F0A2624ABB000C31C54 /* MapboxDirections.framework */; };
+		D0AD1F192624ABB000C31C54 /* MapboxAccounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AD1F0B2624ABB000C31C54 /* MapboxAccounts.framework */; };
+		D0AD1F1B2624ABB000C31C54 /* MapboxNavigationNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AD1F0C2624ABB000C31C54 /* MapboxNavigationNative.framework */; };
+		D0AD1F1D2624ABB100C31C54 /* MapboxSpeech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AD1F0D2624ABB000C31C54 /* MapboxSpeech.framework */; };
+		D0AD1F1F2624ABB100C31C54 /* Solar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AD1F0E2624ABB000C31C54 /* Solar.framework */; };
+		D0AD1F212624ABB100C31C54 /* Turf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AD1F0F2624ABB000C31C54 /* Turf.framework */; };
+		D0AD1F232624ABB100C31C54 /* MapboxNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AD1F102624ABB000C31C54 /* MapboxNavigation.framework */; };
+		D0AD1F252624ABB100C31C54 /* MapboxCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AD1F112624ABB000C31C54 /* MapboxCommon.framework */; };
+		D0AD1F272624ABB100C31C54 /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AD1F122624ABB000C31C54 /* Polyline.framework */; };
+		D0AD1F292624ABB100C31C54 /* MapboxCoreNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AD1F132624ABB000C31C54 /* MapboxCoreNavigation.framework */; };
+		D0AD1F2B2624ABB100C31C54 /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0AD1F142624ABB000C31C54 /* MapboxMobileEvents.framework */; };
+		D0AD1F3A2624AF2100C31C54 /* MapboxViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD1F392624AF2100C31C54 /* MapboxViewWrapper.swift */; };
+		D0AD1F3F2624AF5D00C31C54 /* MapboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD1F3E2624AF5D00C31C54 /* MapboxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +60,21 @@
 		D0AD1EED2624A64000C31C54 /* MapboxIosTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapboxIosTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AD1EF12624A64100C31C54 /* MapboxIosTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxIosTestUITests.swift; sourceTree = "<group>"; };
 		D0AD1EF32624A64100C31C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0AD1F022624A6DB00C31C54 /* MapboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxViewController.swift; sourceTree = "<group>"; };
+		D0AD1F092624ABB000C31C54 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = Carthage/Build/iOS/Mapbox.framework; sourceTree = "<group>"; };
+		D0AD1F0A2624ABB000C31C54 /* MapboxDirections.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxDirections.framework; path = Carthage/Build/iOS/MapboxDirections.framework; sourceTree = "<group>"; };
+		D0AD1F0B2624ABB000C31C54 /* MapboxAccounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxAccounts.framework; path = Carthage/Build/iOS/MapboxAccounts.framework; sourceTree = "<group>"; };
+		D0AD1F0C2624ABB000C31C54 /* MapboxNavigationNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxNavigationNative.framework; path = Carthage/Build/iOS/MapboxNavigationNative.framework; sourceTree = "<group>"; };
+		D0AD1F0D2624ABB000C31C54 /* MapboxSpeech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxSpeech.framework; path = Carthage/Build/iOS/MapboxSpeech.framework; sourceTree = "<group>"; };
+		D0AD1F0E2624ABB000C31C54 /* Solar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Solar.framework; path = Carthage/Build/iOS/Solar.framework; sourceTree = "<group>"; };
+		D0AD1F0F2624ABB000C31C54 /* Turf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Turf.framework; path = Carthage/Build/iOS/Turf.framework; sourceTree = "<group>"; };
+		D0AD1F102624ABB000C31C54 /* MapboxNavigation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxNavigation.framework; path = Carthage/Build/iOS/MapboxNavigation.framework; sourceTree = "<group>"; };
+		D0AD1F112624ABB000C31C54 /* MapboxCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxCommon.framework; path = Carthage/Build/iOS/MapboxCommon.framework; sourceTree = "<group>"; };
+		D0AD1F122624ABB000C31C54 /* Polyline.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Polyline.framework; path = Carthage/Build/iOS/Polyline.framework; sourceTree = "<group>"; };
+		D0AD1F132624ABB000C31C54 /* MapboxCoreNavigation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxCoreNavigation.framework; path = Carthage/Build/iOS/MapboxCoreNavigation.framework; sourceTree = "<group>"; };
+		D0AD1F142624ABB000C31C54 /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapboxMobileEvents.framework; path = Carthage/Build/iOS/MapboxMobileEvents.framework; sourceTree = "<group>"; };
+		D0AD1F392624AF2100C31C54 /* MapboxViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxViewWrapper.swift; sourceTree = "<group>"; };
+		D0AD1F3E2624AF5D00C31C54 /* MapboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +82,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0AD1F2B2624ABB100C31C54 /* MapboxMobileEvents.framework in Frameworks */,
+				D0AD1F292624ABB100C31C54 /* MapboxCoreNavigation.framework in Frameworks */,
+				D0AD1F252624ABB100C31C54 /* MapboxCommon.framework in Frameworks */,
+				D0AD1F212624ABB100C31C54 /* Turf.framework in Frameworks */,
+				D0AD1F1B2624ABB000C31C54 /* MapboxNavigationNative.framework in Frameworks */,
+				D0AD1F192624ABB000C31C54 /* MapboxAccounts.framework in Frameworks */,
+				D0AD1F1D2624ABB100C31C54 /* MapboxSpeech.framework in Frameworks */,
+				D0AD1F152624ABB000C31C54 /* Mapbox.framework in Frameworks */,
+				D0AD1F272624ABB100C31C54 /* Polyline.framework in Frameworks */,
+				D0AD1F232624ABB100C31C54 /* MapboxNavigation.framework in Frameworks */,
+				D0AD1F1F2624ABB100C31C54 /* Solar.framework in Frameworks */,
+				D0AD1F172624ABB000C31C54 /* MapboxDirections.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +121,7 @@
 				D0AD1EE52624A64000C31C54 /* MapboxIosTestTests */,
 				D0AD1EF02624A64100C31C54 /* MapboxIosTestUITests */,
 				D0AD1ED22624A64000C31C54 /* Products */,
+				D0AD1F082624ABB000C31C54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +143,9 @@
 				D0AD1ED82624A64000C31C54 /* Assets.xcassets */,
 				D0AD1EDD2624A64000C31C54 /* Info.plist */,
 				D0AD1EDA2624A64000C31C54 /* Preview Content */,
+				D0AD1F022624A6DB00C31C54 /* MapboxViewController.swift */,
+				D0AD1F392624AF2100C31C54 /* MapboxViewWrapper.swift */,
+				D0AD1F3E2624AF5D00C31C54 /* MapboxView.swift */,
 			);
 			path = MapboxIosTest;
 			sourceTree = "<group>";
@@ -130,6 +176,25 @@
 			path = MapboxIosTestUITests;
 			sourceTree = "<group>";
 		};
+		D0AD1F082624ABB000C31C54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD1F092624ABB000C31C54 /* Mapbox.framework */,
+				D0AD1F0B2624ABB000C31C54 /* MapboxAccounts.framework */,
+				D0AD1F112624ABB000C31C54 /* MapboxCommon.framework */,
+				D0AD1F132624ABB000C31C54 /* MapboxCoreNavigation.framework */,
+				D0AD1F0A2624ABB000C31C54 /* MapboxDirections.framework */,
+				D0AD1F142624ABB000C31C54 /* MapboxMobileEvents.framework */,
+				D0AD1F102624ABB000C31C54 /* MapboxNavigation.framework */,
+				D0AD1F0C2624ABB000C31C54 /* MapboxNavigationNative.framework */,
+				D0AD1F0D2624ABB000C31C54 /* MapboxSpeech.framework */,
+				D0AD1F122624ABB000C31C54 /* Polyline.framework */,
+				D0AD1F0E2624ABB000C31C54 /* Solar.framework */,
+				D0AD1F0F2624ABB000C31C54 /* Turf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +205,7 @@
 				D0AD1ECD2624A63F00C31C54 /* Sources */,
 				D0AD1ECE2624A63F00C31C54 /* Frameworks */,
 				D0AD1ECF2624A63F00C31C54 /* Resources */,
+				D0AD1F072624AACA00C31C54 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,13 +320,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D0AD1F072624AACA00C31C54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/input.xcfilelist",
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+				"$(SRCROOT)/output.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0AD1ECD2624A63F00C31C54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D0AD1ED72624A64000C31C54 /* ContentView.swift in Sources */,
+				D0AD1F3A2624AF2100C31C54 /* MapboxViewWrapper.swift in Sources */,
 				D0AD1ED52624A64000C31C54 /* MapboxIosTestApp.swift in Sources */,
+				D0AD1F032624A6DB00C31C54 /* MapboxViewController.swift in Sources */,
+				D0AD1F3F2624AF5D00C31C54 /* MapboxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +512,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MapboxIosTest/Preview Content\"";
 				DEVELOPMENT_TEAM = 278KNLS5VW;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MapboxIosTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,6 +538,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MapboxIosTest/Preview Content\"";
 				DEVELOPMENT_TEAM = 278KNLS5VW;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MapboxIosTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (

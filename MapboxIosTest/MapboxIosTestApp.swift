@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct MapboxIosTestApp: App {
+    let mapboxViewController = MapboxViewController()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MapboxView()
         }
     }
 }
